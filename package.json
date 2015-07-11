@@ -1,0 +1,44 @@
+{
+  "name": "docpad-skeleton-beetle",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Beetle HTML is a free responsive template for blogs, portfolios, app showcases and resumes..",
+  "homepage": "https://github.com/SteveMcArthur/docpad-skeleton-beetle",
+  "keywords": [
+    "docpad-skeleton",
+    "docpad",
+    "website",
+    "skeleton",
+    "html5",
+    "beetle"
+  ],
+  "author": "Steve McArthur <contact@stevemcarthur.co.uk> (http://www.stevemcarthur.co.uk)",
+  "maintainers": [
+    "Steve McArthur <contact@stevemcarthur.co.uk> (https://github.com/SteveMcArthur)"
+  ],
+  "contributors": [
+    "Steve McArthur <contact@stevemcarthur.co.uk> (https://github.com/SteveMcArthur)"
+  ],
+  "bugs": {
+    "url": "https://github.com/docpad/docpad-skeleton-h5bp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SteveMcArthur/docpad-skeleton-beetle.git"
+  },
+  "engines": {
+    "node": "0.10",
+    "npm": "1.3"
+  },
+  "dependencies": {
+    "docpad": "~6.75.2",
+    "docpad-plugin-cleanurls": "~2.7.0",
+    "docpad-plugin-eco": "~2.1.0",
+    "docpad-plugin-marked": "~2.3.0",
+    "docpad-plugin-partials": "~2.9.2"
+  },
+  "devDependencies": {
+    "docpad-plugin-livereload": "~2.6.1"
+  },
+  "main": "node_modules/docpad/bin/docpad-server"
+}
