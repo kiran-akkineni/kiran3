@@ -144,6 +144,7 @@ docpadConfig =
                 if opts.extension is 'html'
                     opts.content = opts.content.replace(/href="\//g,'href="'+siteUrl+"/")
                     opts.content = opts.content.replace(/src="\//g, 'src="'+siteUrl+"/")
+                    opts.content = opts.content.replace(/url\(\//g, 'url('+siteUrl+"/")
 
 
         # Server Extend

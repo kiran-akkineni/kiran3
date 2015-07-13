@@ -25,6 +25,9 @@ Based on the [mokaine.com](http://mokaine.com) free HTML5 template called [Beetl
 ### Blog Page Example
 ![Screenshot](https://raw.githubusercontent.com/SteveMcArthur/docpad-skeleton-beetle/master/screenshot2.jpg)
 
+### Project Website
+http://stevemcarthur.github.io/docpad-skeleton-beetle
+
 
 ## License
 
