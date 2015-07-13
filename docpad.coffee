@@ -13,7 +13,7 @@ docpadConfig =
         site:
             # The production url of our website
             # If not set, will default to the calculated site URL (e.g. http://localhost:9778)
-            url: "http://website.com"
+            #url: "http://website.com"
 
             # Here are some old site urls that you would like to redirect from
             oldUrls: [
@@ -124,6 +124,10 @@ docpadConfig =
             templateData:
                 site:
                     url: false
+        static:
+            templateData:
+                site:
+                    url: 'http://stevemcarthur.github.io/docpad-skeleton-beetle'
 
 
     # =================================
@@ -133,6 +137,14 @@ docpadConfig =
     # You can find a full listing of events on the DocPad Wiki
 
     events:
+    
+        renderDocument: (opts) ->
+            if 'static' in @docpad.getEnvironments()
+                siteUrl = @docpad.getConfig().templateData.site.url.replace(/\/+$/, '')
+                if opts.extension is 'html'
+                    opts.content = opts.content.replace(/href="\//g,'href="'+siteUrl+"/")
+                    opts.content = opts.content.replace(/src="\//g, 'src="'+siteUrl+"/")
+
 
         # Server Extend
         # Used to add our own custom routes to the server before the docpad routes are added
