@@ -22,16 +22,16 @@ docpadConfig =
             ]
 
             # The default title of our website
-            title: "Your Website"
+            title: "Kiran Akkineni"
 
             # The website description (for SEO)
             description: """
-                When your website appears in search results in say Google, the text here will be shown underneath your website's title.
+                Kiran Akkineni - Personal website & blog
                 """
 
             # The website keywords (for SEO) separated by commas
             keywords: """
-                place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website
+                kiran, akkineni, miriam, calicdan, analytics, e-commerce, ecommerce, analysis, marketing, product, executive, internet, Seattle, Nashville
                 """
 
             # The website's styles
