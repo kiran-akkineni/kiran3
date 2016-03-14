@@ -22,7 +22,7 @@ docpadConfig =
             ]
 
             # The default title of our website
-            title: "Kiran Akkineni"
+            title: "KA"
 
             # The website description (for SEO)
             description: """
