@@ -47,63 +47,17 @@
                             <ul class="sub-menu">
                                 <li><a href="/">Generic Home Page</a>
                                 </li>
-                                <li><a href="/home-02">App Showcase</a>
-                                </li>
-                                <li><a href="/home-03">App Showcase Alternative</a>
-                                </li>
                             </ul>
                         </li>
                         <li class="menu-item">
-                            <a href="/works">Works</a>
-                            <ul class="sub-menu">
-                                <li><a href="/works">Four Columns Grid Style</a>
-                                </li>
-                                <li><a href="/works-3-columns">Three Columns Grid Style</a>
-                                </li>
-                                <li><a href="/works-4-columns-alternative">Four Columns Mosaic Style</a>
-                                </li>
-                                <li><a href="/works-3-columns-alternative">Three Columns Mosaic Style</a>
-                                </li>
-                                <li><a href="/works-4-columns-lightbox">Lightbox Gallery</a>
-                                </li>
-                                <li><a href="/single-work-post">Single Work Page</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="menu-item">
-                            <a href="/blog-4-columns-masonry">Blog</a>
-                            <ul class="sub-menu">
-                                <li><a href="/blog-4-columns-masonry">Four Columns Grid</a>
-                                </li>
-                                <li><a href="/blog-list-sidebar">List Style with Sidebar</a>
-                                </li>
-                                <li><a href="/posts/pork-scratchings">Single Post</a>
-                                </li>
-                                <li><a href="/posts/more-pork-scratchings">Single Post without Sidebar</a>
-                                </li>
-                            </ul>
+                            <a href="/blog">Blog</a>
                         </li>
                         <li class="menu-item"><a href="/resume">Resume</a>
                         </li>
                         <li class="menu-item">
-                            <a href="#">Features</a>
+                            <a href="/works">Side projects</a>
                             <ul class="sub-menu">
-                                <li><a href="/search">Search Page</a>
-                                </li>
-                                <li><a href="/no-results">Search Page - No Results</a>
-                                </li>
-                                <li><a href="/404">404 - Page Not Found</a>
-                                </li>
-                                <li>
-                                    <a href="#">Sub Menu</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="#">Sub Sub Menu 01</a>
-                                        </li>
-                                        <li><a href="#">Sub Sub Menu 02</a>
-                                        </li>
-                                        <li><a href="#">Sub Sub Menu 03</a>
-                                        </li>
-                                    </ul>
+                                <li><a href="/works">kopychat</a>
                                 </li>
                             </ul>
                         </li>
@@ -129,15 +83,15 @@
                         <!-- la class="widget" è forse generata utomaticamente da wp -->
                         <h4>Menu</h4>
                         <ul class="plain">
-                            <li><a href="home-01.html">Home</a>
-                            </li>
-                            <li><a href="works-3-columns.html">Portfolio</a>
+                            <li><a href="/">Home</a>
                             </li>
                             <li><a href="blog-4-columns-masonry.html">Blog</a>
                             </li>
                             <li><a href="resume.html">Resume</a>
                             </li>
-                            <li><a href="file:///Users/pasqualevitiello/My%20Folder/Job/Envato/PR%20Themeforest/Flattie/Markup/Beetle/contact.html">Contact</a>
+                            <li><a href="works-3-columns.html">Side projects</a>
+                            </li>
+                            <li><a href="/contact.html">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -156,26 +110,10 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="widget column three">
-                        <h4>Widget</h4>
-                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                    </div>
-                    <div class="widget meta-social column three">
-                        <h4>Follow Us</h4>
-                        <ul class="inline">
-                            <li><a href="#" class="twitter-share border-box"><i class="fa fa-twitter fa-lg"></i></a>
-                            </li>
-                            <li><a href="#" class="facebook-share border-box"><i class="fa fa-facebook fa-lg"></i></a>
-                            </li>
-                            <li><a href="#" class="pinterest-share border-box"><i class="fa fa-pinterest fa-lg"></i></a>
-                            </li>
-                        </ul>
-                    </div>
                 </section>
                 <!-- top-footer -->
                 <section id="bottom-footer">
-                    <p class="keep-left">&copy; <%-@thisYear%>  <a href="http://mokaine.com/" alt="Mokaine Lab">Mokaine</a>. All Rights Reserved.</p>
-                    <p class="keep-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                    <p class="keep-left">&copy; <%-@thisYear%>  <a href="http://mokaine.com/" alt="Kiran Akkineni">Kiran Akkineni</a>. All Rights Reserved.</p>
                 </section>
                 <!-- bottom-footer -->
             </div>
