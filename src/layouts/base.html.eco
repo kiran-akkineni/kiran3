@@ -39,7 +39,7 @@
                     <h1 class="reset"><!--<img src="img/logo.png" alt="logo">--><a href="<%= @site.url %>"><%- @site.title %></a></h1>
                 </div>
                 <!-- brand -->
-                <a id="menu-toggle" href="#"><i class="fa fa-bars fa-lg"></i></a>
+                <a id="menu-toggle" href="/"><i class="fa fa-bars fa-lg"></i></a>
                 <nav>
                     <ul class="reset" role="navigation">
                         <li class="menu-item">
