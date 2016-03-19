@@ -13,13 +13,11 @@ docpadConfig =
         site:
             # The production url of our website
             # If not set, will default to the calculated site URL (e.g. http://localhost:9778)
-            #url: "www.kiranakkineni.com"
+            #url: "http://kiranakkineni.com"
 
             # Here are some old site urls that you would like to redirect from
             oldUrls: [
-                'www.website.com',
-                'https://kiran-personal.herokuapp.com',
-                'kiran-personal.herokuapp.com'
+                'www.website.com'
             ]
 
             # The default title of our website
@@ -124,7 +122,7 @@ docpadConfig =
         development:
             templateData:
                 site:
-                    url: false
+                    url: 'http://kiranakkineni.com'
         static:
             templateData:
                 site:
