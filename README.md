@@ -1,7 +1,5 @@
 # Kiran Akkineni
-
-
-
+www.kiranakkineni.com
 
 ## Info
 
