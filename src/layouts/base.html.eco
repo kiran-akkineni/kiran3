@@ -41,8 +41,6 @@
                         <li class="menu-item">
                             <a href="/blog">Blog</a>
                         </li>
-                        <li class="menu-item"><a href="/resume">Resume</a>
-                        </li>
                         <li class="menu-item">
                             <a href="/works">Side projects</a>
                             <ul class="sub-menu">
@@ -76,8 +74,6 @@
                             </li>
                             <li><a href="blog-4-columns-masonry.html">Blog</a>
                             </li>
-                            <li><a href="resume.html">Resume</a>
-                            </li>
                             <li><a href="works-3-columns.html">Side projects</a>
                             </li>
                             <li><a href="/contact.html">Contact</a>
@@ -87,22 +83,14 @@
                     <div class="widget column three">
                         <h4>Archives</h4>
                         <ul class="plain">
-                            <li><a href="#">March 2014</a>
-                            </li>
-                            <li><a href="#">April 2014</a>
-                            </li>
-                            <li><a href="#">May 2014</a>
-                            </li>
-                            <li><a href="#">June 2014</a>
-                            </li>
-                            <li><a href="#">July 2014</a>
+                            <li><a href="#">May 2016</a>
                             </li>
                         </ul>
                     </div>
                 </section>
                 <!-- top-footer -->
                 <section id="bottom-footer">
-                    <p class="keep-left">&copy; <%-@thisYear%>  <a href="http://mokaine.com/" alt="Kiran Akkineni">Kiran Akkineni</a>. All Rights Reserved.</p>
+                    <p class="keep-left">&copy; <%-@thisYear%>  <a href="/" alt="Kiran Akkineni">Kiran Akkineni</a>. All Rights Reserved.</p>
                 </section>
                 <!-- bottom-footer -->
             </div>
