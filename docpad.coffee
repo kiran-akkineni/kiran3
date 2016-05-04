@@ -13,7 +13,8 @@ docpadConfig =
         site:
             # The production url of our website
             # If not set, will default to the calculated site URL (e.g. http://localhost:9778)
-            #url: "http://kiranakkineni.com"
+            #url: "http://www.kiranakkineni.com"
+            url: "http://www.kiranakkineni.com"
 
             # Here are some old site urls that you would like to redirect from
             oldUrls: [
@@ -25,12 +26,12 @@ docpadConfig =
 
             # The website description (for SEO)
             description: """
-                Kiran Akkineni - Personal website & blog
+                Kiran Akkineni - Personal website
                 """
 
             # The website keywords (for SEO) separated by commas
             keywords: """
-                kiran, akkineni, miriam, calicdan, analytics, e-commerce, ecommerce, analysis, marketing, product, executive, internet, Seattle, Nashville
+                kiran akkineni, kiran, akkineni, miriam, calicdan, analytics, e-commerce, ecommerce, analysis, marketing, product, executive, internet, Emeryville, Seattle, Nashville
                 """
 
             # The website's styles

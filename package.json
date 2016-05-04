@@ -2,7 +2,7 @@
   "name": "kiran3",
   "version": "0.1.0",
   "private": true,
-  "description": "Personal website using Beetle HTML",
+  "description": "Kiran Akkineni's personal site",
   "homepage": "http://kiranakkineni.com",
   "keywords": [
     "docpad-skeleton",
@@ -12,9 +12,9 @@
     "html5",
     "beetle"
   ],
-  "author": "Steve McArthur <contact@stevemcarthur.co.uk> (http://www.stevemcarthur.co.uk)",
+  "author": "Kiran Akkineni <kiran.home@gmail.com>",
   "maintainers": [
-    "Steve McArthur <contact@stevemcarthur.co.uk> (https://github.com/SteveMcArthur)"
+    "Kiran Akkineni <kiran.home@gmail.com>"
   ],
   "contributors": [
     "Steve McArthur <contact@stevemcarthur.co.uk> (https://github.com/SteveMcArthur)"
