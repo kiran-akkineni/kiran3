@@ -1521,6 +1521,12 @@ ul.meta-social li a.facebook-share:hover {
     background-color: #3b5998;
 }
 
+.meta-social ul li a.snapchat-share:hover,
+ul.meta-social li a.snapchat-share:hover {
+    border-color: #3b5998;
+    background-color: #3b5998;
+}
+
 .meta-social ul li a.flickr-share:hover,
 ul.meta-social li a.flickr-share:hover {
     border-color: #0063dc;
